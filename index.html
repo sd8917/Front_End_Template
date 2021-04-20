@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>home | </title>
+    <title>Lecture |Notes </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -11,30 +11,190 @@
 </head>
 <body>
 
-    <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-         make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
-         typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-         sheets containing Lorem Ipsum passages, a
-        nd more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<!-- Repeat section for every Lecture 1start -->
+<hr>
+<h1>Lecture -1  <hr style="width: 20%;"> </h1>
 
-    </p>
+<p>Working on....</p>
+<p class="feedback">
+   <img classs="like" height ="30px" width="30px"   src="http://pngimg.com/uploads/like/small/like_PNG89.png" alt="like"> 
+   <img classs="dilike"  height ="30px" width="30px"  src="https://image.similarpng.com/very-thumbnail/2020/08/Facebook-dislike-icon-premium-vector-PNG.png" alt="deslike"> 
+   <img classs="comment"  height ="30px" width="30px" src="https://cultureofyes.files.wordpress.com/2011/08/comment.png" alt="comment">
+</p>
+<hr>
 
-    <p class="container">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        Lor em Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-    </p>
-
-    <img class="profile" src="" />
-
-    <img class="post-img" src="">
-
-
+<!-- Repeat section for every Lecture 1 end -->
 
     
+    <!-- Repeat section for every Lecture 2 start -->
+<hr>
+<h1>Lecture -2(CURRENT) <hr style="width: 20%;"> </h1>
+<ol >
+    <li class="summary">
+        How to create a list && type of list.
+    </li>
+    <li class="summary">
+        How to create a list && type of list.
+    </li>
+    <li class="summary">
+        Different type of style 
+    </li>
+    <li class="summary">
+        Different type of font Family.
+    </li>
+    <li class="summary">
+        Box sizing and different properties like padding,margin etc.
+    </li>
+
+</ol>
+<hr>
+
+<!-- TOPIC Repeat inside each lecture start -->
+<h3 style="text-shadow: 2px;">How to create a list</h3>
+<p>
+    ol -> used for ordered list items<br>
+    li-> used to write the list items.
+</p>
+<p class="code-sample">
+    &lt;ol&gt;<br>
+    &nbsp;  &lt;li>Mercury&lt;/li&gt;<br>
+    
+    &nbsp;  &lt;li>Venus&lt;/li&gt;<br>
+    &nbsp;  &lt;li>Earth&lt;/li&gt;<br>
+    &nbsp;  &lt;li>Mars&lt;/li&gt;<br>
+    &lt;/ol&gt;<br>
+</p>
+<p>Output</p>
+
+<ol>
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+</ol>
+<!-- TOPIC Repeat inside each lecture start -->
+
+<h3 style="text-shadow: 2px;">How to change list-style-type</h3>
+<p>
+    list-style-type type is an attribute that changes the type 
+    list style like :->
+
+</p>
+<p class="code-sample">
+    &lt;ol style="list-style-type : upper-alpha;" &gt;<br>
+    &nbsp;  &lt;li>Mercury&lt;/li&gt;<br>
+    
+    &nbsp;  &lt;li>Venus&lt;/li&gt;<br>
+    &nbsp;  &lt;li>Earth&lt;/li&gt;<br>
+    &nbsp;  &lt;li>Mars&lt;/li&gt;<br>
+    &lt;/ol&gt;<br>
+</p>
+<p>Output</p>
+
+<ol style="list-style-type: upper-alpha;">
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+</ol>
+
+<p class="note">
+
+    <b>Note</b> 
+    <a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_ul_list-style-type&preval=disc">Reference link </a>
+</p>
+
+<!-- TOPIC Repeat inside each lecture start -->
+
+<h3 style="text-shadow: 2px;">Different type of style </h3>
+<ul style="list-style-type: square;">
+    <li>
+        Inline Styles -> Style attribute
+    </li>
+    <li>
+        Internal Styles -> Write CSS in head tag
+    </li>
+    <li>
+        External Styles -> Create a seperate CSS file
+    </li>
+   
+</ul>
+<p>
+    <elem style="property-name1:value1 ; property-name1: value1;"><br>
+    </elem>
+</p>
+<p class="code-sample">
+    &nbsp; <b>Inline Style</b><br>
+    &nbsp;  &lt; p style="font-size:24px;color:red;"&gt;Test paragraph write it here ... &lt;/p&gt;<br>
+</p>
+<p>Output</p>
+ <p style="font-size:24px;color:red;">Test paragraph write it here ... </p>
+
+<p class="code-sample">
+    <b>Internal Styles</b><br>
+    &lt; head &gt;<br>
+    &lt;style &gt;<br>
+    &nbsp;  p<br> &nbsp;  {
+        &nbsp;  <br> &nbsp; &nbsp; color:red;<br>
+        &nbsp;  }<br>
+            &nbsp; &lt;/style &gt;<br>
+            &nbsp; &lt;/head &gt;<br>
+</p>
+
+<p class="note">
+
+    <b>Note</b> 
+    <a href="https://www.w3schools.com/html/html_css.asp">Reference link </a>
+</p>
+
+
+
+<!-- TOPIC Repeat inside each lecture start -->
+
+<h3 style="text-shadow: 2px;">Different Font families </h3>
+
+
+<p class="code-sample">
+    &nbsp; <b>Inline Style</b><br>
+    &nbsp;  &lt; p style="font-size:24px;color:red;"&gt;Test paragraph write it here ... &lt;/p&gt;<br>
+</p>
+<p>Output</p>
+ <p style="font-size:24px;color:red;">Test paragraph write it here ... </p>
+
+
+
+<p class="note">
+
+    <b>Note</b> 
+    <a href="">Reference link </a>
+</p>
+
+
+
+<p class="feedback">
+   <img classs="like" height ="30px" width="30px"   src="http://pngimg.com/uploads/like/small/like_PNG89.png" alt="like"> 
+   <img classs="dilike"  height ="30px" width="30px"  src="https://image.similarpng.com/very-thumbnail/2020/08/Facebook-dislike-icon-premium-vector-PNG.png" alt="deslike"> 
+   <img classs="comment"  height ="30px" width="30px" src="https://cultureofyes.files.wordpress.com/2011/08/comment.png" alt="comment">
+</p>
+<hr>
+
+<!-- Repeat section for every Lecture end -->
+
+
+ <!-- footer section for contributer -->
+<br>
+<p>
+    <b> Contributers list : </b>
+    <ol style="list-style-type: none;">
+        <li>
+            <img class="profile" src="https://avatars.githubusercontent.com/u/34008023?v=4" > Sudhanshu
+        </li><br>
+        <li>
+            <img class="profile" src="https://avatars.githubusercontent.com/u/34008023?v=4" > Name 2
+        </li>
+        
+    </ol>
+</p>
+   
 </body>
 </html></ht>
