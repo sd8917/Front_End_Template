@@ -1,0 +1,15 @@
+.container{
+    color:whitesmoke;
+    background-color: rgb(12, 85, 12);
+    padding: 20px;
+    margin: 40px;
+    line-height: 1em;
+    border:2px solid violet;
+}
+
+.profile{
+    height: 300px;
+    width:  300px;
+    border-radius: 150px;
+    border: 1px dotted green;
+}
